@@ -1,0 +1,7 @@
+#home,
+#about,
+#service,
+#whychooseus,
+#contact {
+    scroll-margin-top: 150px; /* Offset for fixed header (adjust as needed) */
+}
