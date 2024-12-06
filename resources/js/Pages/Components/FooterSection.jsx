@@ -8,16 +8,13 @@ import { CiLinkedin } from "react-icons/ci";
 export default function FooterSection() {
     const handleSubmit = () => {};
     return (
-        <footer className="py-16 text-center text-sm text-black dark:text-white/70">
+        <footer className="py-16 px-5 text-center text-sm bg-black bg-opacity-50 text-black dark:text-white/70">
             <div className="container mx-auto py-6">
-                <div className="grid grid-cols-1 items-start sm:grid-cols-2 md:grid-cols-3">
+                <div className="grid grid-cols-1 items-start xl:grid-cols-3">
                     {/* Column 1: Company Info */}
                     <div className="space-y-5">
                         <Link className="" href="/">
-                            <img
-                                src="http://probuilder-web-expert.test/Screenshot 2024-12-05 190108.png"
-                                className="h-24 -ml-6"
-                            />
+                            <img src="/PB orig.png" className="h-24" />
                         </Link>
                         <div className="space-y-4 cursor-default">
                             <div className="flex items-start space-x-5">

@@ -23,23 +23,23 @@ export default function HeaderSection() {
 
     return (
         <>
-            <div className="flex justify-between bg-grad w-full text-blue-400 py-5 font-semibold bg-gradient-to-b opacity-75 from-gray-900 to-transparent">
+            <div className="flex flex-col md:flex-row justify-between bg-grad w-full text-blue-400 py-5 font-semibold bg-gradient-to-b opacity-75 from-gray-900 to-transparent">
                 <div>Talk to us: 09999554869</div>
                 <div>probuilder@probuilderwebexph.com</div>
             </div>
             <header
                 ref={headerRef}
-                className={`grid grid-cols-2 items-center gap-2 lg:grid-cols-2 sticky top-0 transition-all duration-300 ${
+                className={`grid grid-cols-2 items-center gap-2 lg:grid-cols-2 sticky top-0 transition-all duration-500 ${
                     isSticky
-                        ? "bg-gradient-to-b opacity-100 from-gray-950 to-transparent shadow-md py-10"
+                        ? "bg-gradient-to-b bg-opacity-95 from-gray-950 to-transparent shadow-md py-10"
                         : "py-10"
                 }`}
             >
                 <div className="flex lg:col-start-1 lg:justify-start">
                     <Link href="/">
                         <img
-                            src="http://probuilder-web-expert.test/Screenshot 2024-12-05 190108.png"
-                            className="h-20 -m-3"
+                            src="http://probuilder-web-expert.test/PB orig.png"
+                            className="h-20"
                         />
                     </Link>
                     {/* <svg
@@ -54,7 +54,7 @@ export default function HeaderSection() {
             />
         </svg> */}
                 </div>
-                <nav className="-mx-3 flex flex-1 justify-end space-x-5">
+                <nav className="hidden md:flex flex-1 justify-end space-x-5">
                     {auth.user ? (
                         <Link
                             href={route("dashboard")}
@@ -92,10 +92,49 @@ export default function HeaderSection() {
                             >
                                 Contact
                             </Link>
+                            <Link
+                                href="#whowehelp"
+                                preserveScroll
+                                className="hidden md:block text-blue-500 font-semibold border border-blue-600 rounded-full px-4 py-2 hover:text-white hover:bg-blue-600 active:bg-blue-700 transition-all duration-300 ease-in-out hover:px-5"
+                            >
+                                Get Started
+                            </Link>
                         </>
                     )}
                 </nav>
             </header>
+            <nav className="flex md:hidden justify-center">
+                <>
+                    <Link
+                        href="#home"
+                        preserveScroll
+                        className="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                    >
+                        Home
+                    </Link>
+                    <Link
+                        href="#about"
+                        preserveScroll
+                        className="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                    >
+                        About
+                    </Link>
+                    <Link
+                        href="#service"
+                        preserveScroll
+                        className="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                    >
+                        Services
+                    </Link>
+                    <Link
+                        href="#contact"
+                        preserveScroll
+                        className="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                    >
+                        Contact
+                    </Link>
+                </>
+            </nav>
         </>
     );
 }
