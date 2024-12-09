@@ -44,26 +44,29 @@ export default function FooterSection() {
                         <ul className="space-y-3 text-base font-medium">
                             <li className="mb-2">
                                 <Link
-                                    href="#profile"
+                                    href="#about"
+                                    preserveScroll
                                     className=" hover:font-bold hover:text-white transition ease-in-out"
                                 >
-                                    Profile
+                                    About
                                 </Link>
                             </li>
                             <li className="mb-2">
                                 <Link
-                                    href="#about"
+                                    href="#service"
+                                    preserveScroll
                                     className=" hover:font-bold hover:text-white transition ease-in-out"
                                 >
-                                    About Us
+                                    Services
                                 </Link>
                             </li>
                             <li className="mb-2">
                                 <Link
                                     href="#contact"
+                                    preserveScroll
                                     className=" hover:font-bold hover:text-white transition ease-in-out"
                                 >
-                                    Contact Us
+                                    Contact
                                 </Link>
                             </li>
                         </ul>
