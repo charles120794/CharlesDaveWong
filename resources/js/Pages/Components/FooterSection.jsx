@@ -14,7 +14,7 @@ export default function FooterSection() {
                     {/* Column 1: Company Info */}
                     <div className="space-y-5">
                         <Link className="" href="/">
-                            <img src="/PB orig.png" className="h-24" />
+                            <img src="/images/PB orig.png" className="h-24" />
                         </Link>
                         <div className="space-y-4 cursor-default">
                             <div className="flex items-start space-x-5">

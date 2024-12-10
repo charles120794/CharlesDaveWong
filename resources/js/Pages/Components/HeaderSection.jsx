@@ -37,10 +37,7 @@ export default function HeaderSection() {
             >
                 <div className="flex lg:col-start-1 lg:justify-start">
                     <Link href="/">
-                        <img
-                            src="http://probuilder-web-expert.test/PB orig.png"
-                            className="h-20"
-                        />
+                        <img src="/images/PB orig.png" className="h-20" />
                     </Link>
                     {/* <svg
             className="h-12 w-auto text-white lg:h-16 lg:text-[#FF2D20]"

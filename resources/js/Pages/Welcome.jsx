@@ -57,7 +57,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                 <img
                     id="background"
                     className="fixed"
-                    src="http://probuilder-web-expert.test/wp9015864.jpg"
+                    src="/images/wp9015864.jpg"
                     // src="https://laravel.com/assets/img/welcome/background.svg"
                 />
                 <div className="relative flex min-h-screen flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
