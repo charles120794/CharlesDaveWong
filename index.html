@@ -6,10 +6,16 @@
     <title>Charles Dave Wong | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-gray-50 text-gray-800 font-sans">
-    <header class="bg-red-600 text-white py-4">
-      <div class="container mx-auto px-4 flex justify-between items-center">
-        <h1 class="text-2xl font-semibold">wongcharlesdave@gmail.com</h1>
+  <body class="bg-black text-gray-800 font-sans">
+    <header class="bg-red-600 bg-opacity-60 text-white py-4">
+      <div
+        class="container mx-auto px-4 flex flex-col md:flex-col justify-between items-center"
+      >
+        <h1
+          class="hidden text-md text-blue-300 underline text-center md:text-2xl font-semibold mb-4"
+        >
+          wongcharlesdave@gmail.com
+        </h1>
         <nav>
           <ul class="flex font-medium space-x-4">
             <li><a href="#about" class="hover:underline">About</a></li>
@@ -23,24 +29,31 @@
 
     <main>
       <!-- About Section -->
-      <section id="about" class="py-12 bg-black h-[90vh] flex items-center">
-        <div class="container mx-auto px-4 flex space-x-6">
+      <section
+        id="about"
+        class="py-12 flex bg-opacity-10 items-center md:h-lvh bg-top md:bg-no-repeat md:bg-cover bg-[url('bg.jpeg')]"
+      >
+        <div
+          class="container mx-auto px-2 md:px-5 flex flex-col md:flex-row justify-center md:space-x-6"
+        >
           <div
-            class="flex max-w-96 w-full rounded-full h-96 border-4 border-opacity-65 border-red-500 overflow-hidden"
+            class="bg-black bg-opacity-50 max-w-80 md:max-w-96 w-full mx-auto md:mx-0 rounded-full h-80 md:h-96 mb-4 border-4 border-opacity-65 border-red-500 overflow-hidden"
           >
-            <img src="file.png" class="max-h-96 mx-auto" />
+            <img src="file.png" class="max-h-80 md:max-h-96 mx-auto" />
           </div>
           <div class="flex flex-col justify-center">
             <h2
-              class="text-7xl text-red-500 text-opacity-70 font-semibold mb-4"
+              class="text-center md:text-left text-5xl md:text-7xl text-red-500 text-opacity-70 font-semibold mb-4"
             >
               CHARLES DAVE WONG
             </h2>
-            <p class="text-gray-400 font-medium text-2xl px-2 mb-2">
+            <p
+              class="text-gray-300 text-center md:text-left font-medium text-lg md:text-2xl md:px-2 mb-2"
+            >
               Web Developer
             </p>
             <p
-              class="max-w-2xl text-gray-400 text-justify px-2 leading-relaxed"
+              class="max-w-2xl text-gray-400 text-justify px-0 md:px-3 leading-relaxed"
             >
               I am a PHP Web Developer with over 7 years of experience in
               software development, specializing in building robust web
@@ -52,43 +65,58 @@
       </section>
 
       <!-- Skills Section -->
-      <section id="skills" class="py-12 bg-gray-100">
+      <section
+        id="skills"
+        class="py-12 bg-gradient-to-b from-black to-teal-950 bg-opacity-60"
+      >
         <div class="container mx-auto px-4 text-center">
-          <h2 class="text-3xl font-semibold mb-4">My Skills</h2>
+          <h2 class="text-3xl text-gray-200 font-semibold mb-4">My Skills</h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div class="p-6 bg-white rounded-lg shadow">
+            <div
+              class="p-6 bg-red-600 rounded-lg shadow text-gray-300 hover:text-gray-200 border border-red-600 bg-opacity-20 hover:bg-opacity-30 transition duration-300"
+            >
               <h3 class="text-xl font-bold">PHP</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-300">
                 Expert in building back-end systems with PHP and Laravel.
               </p>
             </div>
-            <div class="p-6 bg-white rounded-lg shadow">
+            <div
+              class="p-6 bg-red-600 rounded-lg shadow text-gray-300 hover:text-gray-200 border border-red-600 bg-opacity-20 hover:bg-opacity-30 transition duration-300"
+            >
               <h3 class="text-xl font-bold">Laravel</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-300">
                 Extensive experience with Laravel for web development.
               </p>
             </div>
-            <div class="p-6 bg-white rounded-lg shadow">
+            <div
+              class="p-6 bg-red-600 rounded-lg shadow text-gray-300 hover:text-gray-200 border border-red-600 bg-opacity-20 hover:bg-opacity-30 transition duration-300"
+            >
               <h3 class="text-xl font-bold">JavaScript</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-300">
                 Proficient in front-end development with React.js & React Native
               </p>
             </div>
-            <div class="p-6 bg-white rounded-lg shadow">
+            <div
+              class="p-6 bg-red-600 rounded-lg shadow text-gray-300 hover:text-gray-200 border border-red-600 bg-opacity-20 hover:bg-opacity-30 transition duration-300"
+            >
               <h3 class="text-xl font-bold">MySQL</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-300">
                 Skilled in designing and managing MySQL databases.
               </p>
             </div>
-            <div class="p-6 bg-white rounded-lg shadow">
+            <div
+              class="p-6 bg-red-600 rounded-lg shadow text-gray-300 hover:text-gray-200 border border-red-600 bg-opacity-20 hover:bg-opacity-30 transition duration-300"
+            >
               <h3 class="text-xl font-bold">APIs</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-300">
                 Experience in building and integrating RESTful APIs.
               </p>
             </div>
-            <div class="p-6 bg-white rounded-lg shadow">
+            <div
+              class="p-6 bg-red-600 rounded-lg shadow text-gray-300 hover:text-gray-200 border border-red-600 bg-opacity-20 hover:bg-opacity-30 transition duration-300"
+            >
               <h3 class="text-xl font-bold">Tailwind CSS</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-300">
                 Expertise in responsive UI development using Tailwind CSS.
               </p>
             </div>
@@ -97,25 +125,34 @@
       </section>
 
       <!-- Projects Section -->
-      <section id="projects" class="py-12 bg-white">
+      <section
+        id="projects"
+        class="py-12 bg-gradient-to-b from-teal-950 to-black bg-opacity-60"
+      >
         <div class="container mx-auto px-4 text-center">
-          <h2 class="text-3xl font-semibold mb-4">My Projects</h2>
+          <h2 class="text-3xl text-gray-200 font-semibold mb-4">My Projects</h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div class="p-6 bg-gray-100 rounded-lg shadow">
+            <div
+              class="p-6 bg-gray-100 rounded-lg shadow text-gray-300 hover:text-gray-200 border border-red-600 bg-opacity-20 hover:bg-opacity-30 transition duration-300"
+            >
               <h3 class="text-xl font-bold">E-Commerce Website</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-300">
                 A robust e-commerce platform built with Laravel and React.
               </p>
             </div>
-            <div class="p-6 bg-gray-100 rounded-lg shadow">
+            <div
+              class="p-6 bg-gray-100 rounded-lg shadow text-gray-300 hover:text-gray-200 border border-red-600 bg-opacity-20 hover:bg-opacity-30 transition duration-300"
+            >
               <h3 class="text-xl font-bold">Sales Invoice System</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-300">
                 An intuitive invoicing system to streamline business operations.
               </p>
             </div>
-            <div class="p-6 bg-gray-100 rounded-lg shadow">
+            <div
+              class="p-6 bg-gray-100 rounded-lg shadow text-gray-300 hover:text-gray-200 border border-red-600 bg-opacity-20 hover:bg-opacity-30 transition duration-300"
+            >
               <h3 class="text-xl font-bold">Life Insurance App</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-300">
                 A secure application for managing life insurance policies.
               </p>
             </div>
@@ -124,10 +161,13 @@
       </section>
 
       <!-- Contact Section -->
-      <section id="contact" class="py-12 bg-gray-100">
+      <section
+        id="contact"
+        class="py-12 bg-gradient-to-b from-black to-gray-900 bg-opacity-60"
+      >
         <div class="container mx-auto px-4 text-center">
-          <h2 class="text-3xl font-semibold mb-4">Contact Me</h2>
-          <p class="text-gray-700 mb-6">
+          <h2 class="text-3xl text-gray-200 font-semibold mb-4">Contact Me</h2>
+          <p class="text-gray-300 mb-6">
             Feel free to reach out for collaborations or inquiries.
           </p>
           <a
@@ -139,7 +179,7 @@
       </section>
     </main>
 
-    <footer class="bg-blue-600 text-white py-4">
+    <footer class="bg-red-600 bg-opacity-60 text-white py-4">
       <div class="container mx-auto px-4 text-center">
         <p>&copy; 2024 Charles Dave Wong. All Rights Reserved.</p>
       </div>
