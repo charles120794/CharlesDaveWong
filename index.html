@@ -7,11 +7,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-50 text-gray-800 font-sans">
-    <header class="bg-blue-600 text-white py-4">
+    <header class="bg-red-600 text-white py-4">
       <div class="container mx-auto px-4 flex justify-between items-center">
-        <h1 class="text-2xl font-bold">Charles Dave Wong</h1>
+        <h1 class="text-2xl font-semibold">wongcharlesdave@gmail.com</h1>
         <nav>
-          <ul class="flex space-x-4">
+          <ul class="flex font-medium space-x-4">
             <li><a href="#about" class="hover:underline">About</a></li>
             <li><a href="#skills" class="hover:underline">Skills</a></li>
             <li><a href="#projects" class="hover:underline">Projects</a></li>
@@ -23,19 +23,30 @@
 
     <main>
       <!-- About Section -->
-      <section id="about" class="py-12 bg-white">
-        <div class="container mx-auto px-4">
-          <div class="flex space-x-6">
-            <img src="profile.jpg" class="h-full max-h-96" />
-            <div class="flex flex-col items-start">
-              <h2 class="text-7xl font-semibold mb-4">Charles Dave Wong</h2>
-              <p class="text-gray-600 font-medium text-lg">
-                I am a PHP Web Developer with over 7 years of experience in
-                software development, specializing in building robust web
-                applications using PHP Laravel. I have a passion for creating
-                elegant, efficient, and scalable solutions for businesses.
-              </p>
-            </div>
+      <section id="about" class="py-12 bg-black h-[90vh] flex items-center">
+        <div class="container mx-auto px-4 flex space-x-6">
+          <div
+            class="flex max-w-96 w-full rounded-full h-96 border-4 border-opacity-65 border-red-500 overflow-hidden"
+          >
+            <img src="file.png" class="max-h-96 mx-auto" />
+          </div>
+          <div class="flex flex-col justify-center">
+            <h2
+              class="text-7xl text-red-500 text-opacity-70 font-semibold mb-4"
+            >
+              CHARLES DAVE WONG
+            </h2>
+            <p class="text-gray-400 font-medium text-2xl px-2 mb-2">
+              Web Developer
+            </p>
+            <p
+              class="max-w-2xl text-gray-400 text-justify px-2 leading-relaxed"
+            >
+              I am a PHP Web Developer with over 7 years of experience in
+              software development, specializing in building robust web
+              applications using PHP Laravel. I have a passion for creating
+              elegant, efficient, and scalable solutions for businesses.
+            </p>
           </div>
         </div>
       </section>
