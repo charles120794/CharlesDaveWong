@@ -100,7 +100,7 @@ export default function HeaderSection() {
                     )}
                 </nav>
             </header>
-            <nav className="flex md:hidden justify-center">
+            <nav className="flex md:hidden justify-center sticky top-40">
                 <>
                     <Link
                         href="#home"

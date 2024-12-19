@@ -38,7 +38,7 @@ export default function WhoWeHelpSection() {
     return (
         <section id="whowehelp" className="py-10">
             <h2 className="text-4xl font-bold text-white mb-10">
-                # Who We Help?
+                Who We Help?
             </h2>
 
             <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
@@ -55,7 +55,7 @@ export default function WhoWeHelpSection() {
                                 {row.label}
                             </h2>
 
-                            <p className="mt-4 text-sm/relaxed">
+                            <p className="mt-4 text-sm/relaxed text-justify md:text-left">
                                 {row.description}
                             </p>
                         </div>

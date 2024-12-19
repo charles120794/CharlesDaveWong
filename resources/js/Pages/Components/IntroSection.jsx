@@ -93,13 +93,13 @@ export default function IntroSection() {
                 Digital Reality
             </h2>
             <p
-                className={`text-sm md:text-base italic mx-3 transition left-6 ${
+                className={`text-sm md:text-base mx-3 italic transition left-6 ${
                     animate.visibleIntro5
-                        ? "opacity-100 translate-x-20"
-                        : "opacity-0 translate-x-0"
+                        ? "opacity-100 translate-x-0"
+                        : "opacity-0 translate-x-[-20px]"
                 } duration-[1500ms]`}
             >
-                {"<-- Code your vision Online -->"}
+                {"Code your vision Online"}
             </p>
             <button
                 type="button"

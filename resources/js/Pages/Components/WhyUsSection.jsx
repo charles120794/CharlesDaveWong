@@ -3,9 +3,9 @@ import { IoRocketOutline } from "react-icons/io5";
 export default function WhyUsSection() {
     return (
         <section id="whychooseus">
-            <h2 className="text-4xl font-bold text-white"># Why Choose Us?</h2>
+            <h2 className="text-4xl font-bold text-white">Why Choose Us?</h2>
             <div className="grid xl:grid-cols-2 my-4">
-                <div className="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-opacity-80 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
+                <div className="flex flex-col items-center md:flex-row md:items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-opacity-80 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
                     <div className="flex size-12 shrink-0 p-1 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
                         {/* <svg
                             className="size-5 sm:size-6"
@@ -71,11 +71,11 @@ export default function WhyUsSection() {
                     </div>
 
                     <div className="pt-3 sm:pt-5">
-                        <h2 className="text-xl font-semibold text-black dark:text-white">
+                        <h2 className="text-xl font-semibold text-center md:text-left text-black dark:text-white">
                             Affordable Prices
                         </h2>
 
-                        <p className="mt-4 text-sm/relaxed">
+                        <p className="mt-4 text-sm/relaxed text-justify md:text-left">
                             High-quality solutions that fit your budget. We
                             deliver premium services without breaking the bank,
                             ensuring exceptional value for your investment.
@@ -86,7 +86,7 @@ export default function WhyUsSection() {
             </div>
             <div className="grid xl:grid-cols-2 my-4">
                 <div></div>
-                <div className="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-opacity-80 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
+                <div className="flex flex-col items-center md:flex-row md:items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-opacity-80 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
                     <div className="flex size-12 shrink-0 p-1 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
                         {/* <svg
                             className="size-5 sm:size-6"
@@ -123,11 +123,11 @@ export default function WhyUsSection() {
                     </div>
 
                     <div className="pt-3 sm:pt-5">
-                        <h2 className="text-xl font-semibold text-black dark:text-white">
+                        <h2 className="text-xl font-semibold text-center md:text-left text-black dark:text-white">
                             Lightning-Fast Turnaround
                         </h2>
 
-                        <p className="mt-4 text-sm/relaxed">
+                        <p className="mt-4 text-sm/relaxed text-justify md:text-left">
                             Time is crucial, and we respect it. Our efficient
                             processes and expert team ensure your project is
                             completed quickly without compromising quality.
@@ -136,7 +136,7 @@ export default function WhyUsSection() {
                 </div>
             </div>
             <div className="grid xl:grid-cols-2 my-4">
-                <div className="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-opacity-80 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
+                <div className="flex flex-col items-center md:flex-row md:items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-opacity-80 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
                     <div className="flex size-12 shrink-0 items-center p-1 justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
                         <svg
                             fill="#1100ff"
@@ -174,11 +174,11 @@ export default function WhyUsSection() {
                     </div>
 
                     <div className="pt-3 sm:pt-5">
-                        <h2 className="text-xl font-semibold text-black dark:text-white">
+                        <h2 className="text-xl font-semibold text-center md:text-left text-black dark:text-white">
                             Creative Excellence
                         </h2>
 
-                        <p className="mt-4 text-sm/relaxed">
+                        <p className="mt-4 text-sm/relaxed text-justify md:text-left">
                             Innovation is at the heart of what we do. From
                             unique designs to cutting-edge solutions, we bring
                             creativity and expertise to every project.
@@ -190,7 +190,7 @@ export default function WhyUsSection() {
             <div className="grid xl:grid-cols-2 my-4">
                 <div></div>
 
-                <div className="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-opacity-80 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
+                <div className="flex flex-col items-center md:flex-row md:items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10 dark:bg-opacity-80 dark:bg-zinc-900 dark:ring-zinc-800 dark:hover:text-white/70 dark:hover:ring-zinc-700 dark:focus-visible:ring-[#FF2D20]">
                     <div className="flex size-12 shrink-0 p-1 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
                         <svg
                             viewBox="-6.4 -6.4 76.80 76.80"
@@ -246,7 +246,7 @@ export default function WhyUsSection() {
                     </div>
 
                     <div className="pt-3 sm:pt-5">
-                        <h2 className="text-xl font-semibold text-black dark:text-white">
+                        <h2 className="text-xl font-semibold text-center md:text-left text-black dark:text-white">
                             Unmatched Customer Support
                         </h2>
 
